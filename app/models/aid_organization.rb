@@ -1,0 +1,2 @@
+class AidOrganization < ApplicationRecord
+end

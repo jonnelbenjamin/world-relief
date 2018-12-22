@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  country_of_field_work: MyString
+  number_of_field_workers: 1
+  monetary_need: 1
+
+two:
+  name: MyString
+  country_of_field_work: MyString
+  number_of_field_workers: 1
+  monetary_need: 1
