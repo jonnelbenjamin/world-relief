@@ -1,0 +1,33 @@
+<h1>New User</h1>
+
+
+<%= form_for @user do |f|%>
+<div>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</div>
+<br>
+<div>
+
+  <%= f.label :age %>
+  <%= f.text_field :age %>
+</div>
+<br>
+<div>
+
+  <%= f.label :country %>
+  <%= f.text_field :country %>
+</div>
+<br>
+<div>
+
+  <%= f.label :profession %>
+  <%= f.text_field :profession %>
+</div>
+<br>
+
+
+<br>
+  <%= f.submit "Register" %>
+  <% end %>

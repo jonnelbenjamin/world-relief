@@ -5,3 +5,7 @@
 <li>Country of Origin: <%= @user.country %></li>
 <li>Profession: <%= @user.profession %></li>
 </h4>
+<%= form_tag @employee, method: "DELETE" do %>
+  <%= submit_tag "Delete User"%>
+ <%end%>
+<%= link_to 'Add a new Area' %>

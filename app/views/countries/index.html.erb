@@ -1,9 +1,7 @@
-
 <h2>All Countries</h2>
 
-
 <% @countries.each do |country|%>
-<%= link_to country, country_path(country)%>
+<li><%= link_to country, country_path(country)%></li>
 <% end %>
 
 <%= link_to "All Users", users_path %>
