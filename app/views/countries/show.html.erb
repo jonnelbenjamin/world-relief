@@ -1,0 +1,4 @@
+<h2><%=country%></h2>
+<% Country.distinct.pluck(:name).find do |country|%>
+<%=country %>
+<% end %>
