@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'home#index'
   resources :countries
   resources :aid_organizations
   resources :users
