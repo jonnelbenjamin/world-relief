@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root to: 'home#index'
+  devise_for :users
   resources :countries
   resources :aid_organizations
   resources :users
