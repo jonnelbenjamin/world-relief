@@ -1,8 +1,12 @@
 <h2>Organizations</h2>
 
 <% @aid_organizations.select do |organization| %>
+<ul>
 <li>
-
 <%= organization %>
 </li>
+</ul>
 <% end %>
+
+<%= link_to 'All Countries', countries_path %> <br>
+<%= link_to 'All Users', users_path %>
